@@ -81,6 +81,7 @@ function addElementtopage(tasks)
       newElement.setAttribute("data-id", task.id);
       let taskText  = document.createElement("div");
       taskText.textContent = task.title;
+      taskText.style.fontSize = "30px";
       let newbtn = document.createElement("button");
       newbtn.className = "btn btn-primary";
       newbtn.id = "btn";
